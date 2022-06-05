@@ -30,6 +30,7 @@ h1 {
   background: rgba(66, 66, 66, 0.5) url("http://unsplash.imgix.net/reserve/de9uL9L7RSmzV4SAoAO5_Lauren%20and%20Winona%20Under%20a%20pass-1.jpg?fit=crop&fm=jpg&h=1500&q=75&w=2400") repeat fixed;
   background-position: 50% 100%;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   z-index: 5;
 }
@@ -39,12 +40,13 @@ h1 {
   height: 30px;
   float: left;
   position: relative;
-  z-index: 5;
-  padding: 10px;
+  z-index: 4;
+  padding: 5px;
   transition: all 30s linear;
   background: rgba(66, 66, 66, 0.5) url("http://unsplash.imgix.net/reserve/de9uL9L7RSmzV4SAoAO5_Lauren%20and%20Winona%20Under%20a%20pass-1.jpg?fit=crop&fm=jpg&h=1500&q=75&w=2400") repeat fixed;
   background-size: cover;
   background-position: 50% 100%;
+  background-attachment: fixed;
   border-radius: 0%;
 }
 .i:hover {
