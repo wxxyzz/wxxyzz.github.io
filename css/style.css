@@ -73,7 +73,7 @@ h1 {
 .p{
   font-family: "Pacifico";
   display: block;
-  position: fixed;
+  position: absolute;
   z-index:2;
   width: 100%;
   text-align: right;
@@ -101,4 +101,34 @@ a:visited {
 a:hover {
   color: beige;
   text-shadow: 0 5px 17px rgba(87, 87, 80, 0.85);
+}
+
+
+@media (max-width:991px){
+
+  .h{
+      font-size: 30px;
+    }
+  .p{
+    font-size: 30px;
+
+  }
+
+}
+
+
+
+@media (max-width:450px){
+
+  .h{
+    font-size: 20px;
+
+  }
+
+  .p{
+    font-size: 20px;
+
+  }
+
+
 }
